@@ -35,7 +35,7 @@ const Projects = () => {
       image: pic3,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       category: 'web',
-      link: 'https://setek-creative-web.vercel.app/',
+      link: 'https://portfolio-umber-chi-97.vercel.app/',
     },
    
     
@@ -114,21 +114,24 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <a 
-                  href={project.link} 
-                  className="text-primary hover:text-primary/80 text-sm font-medium flex items-center transition-colors"
-                >
-                  View Project
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    className="h-4 w-4 ml-1" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke="currentColor"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </a>
+              <a 
+  href={project.link} 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="text-primary hover:text-primary/80 text-sm font-medium flex items-center transition-colors"
+>
+  View Project
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    className="h-4 w-4 ml-1" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor"
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+  </svg>
+</a>
+
               </div>
             </div>
           ))}
