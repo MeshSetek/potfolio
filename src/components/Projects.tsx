@@ -17,7 +17,7 @@ const Projects = () => {
       image: pic,
       technologies: ['React', 'Python', 'MySQL'],
       category: 'web',
-      link: 'https://atelierbags.vercel.app/',
+      link: 'https://caryvoguebags.vercel.app/',
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Projects = () => {
       image: pic1,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       category: 'web',
-      link: 'https://atelierbags.vercel.app/',
+      link: 'https://caryvoguebags.vercel.app/',
     },
     {
       id: 3,
