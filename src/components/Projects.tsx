@@ -26,7 +26,7 @@ const Projects = () => {
       image: pic1,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       category: 'web',
-      link: 'https://caryvoguebags.vercel.app/',
+      link: 'https://bagfluence-africa.vercel.app/getproducts',
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const Projects = () => {
       image: pic3,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       category: 'web',
-      link: 'https://portfolio-umber-chi-97.vercel.app/',
+      link: 'https://meshack-setek-potfolio.vercel.app/',
     },
    
     
