@@ -17,7 +17,7 @@ const Projects = () => {
       image: pic,
       technologies: ['React', 'Python', 'MySQL'],
       category: 'web',
-      link: 'https://caryvoguebags.vercel.app/',
+      link: 'https://bagfluence-africa.vercel.app/getproducts',
     },
     {
       id: 2,
